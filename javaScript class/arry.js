@@ -13,7 +13,7 @@
 
 //-----array push,pop,length------//
 
-var age = [2, 3];
+// var age = [2, 3];
 // console.log(age);
 // console.log(age.length);
 
@@ -22,7 +22,7 @@ var age = [2, 3];
 // console.log(age);
 // console.log(age.length);
 
-age.pop();
+// age.pop();
 // console.log(age);
 
 // var tealine = ['kalam', 'balam', 'salam','forhad','mehedi','tomal','md'];
@@ -83,3 +83,16 @@ age.pop();
 // arr.splice(3,1);
 // arr.splice(3,1,101);
 // console.log(arr);
+
+// spread operator....concatenate multiple array
+
+const age1 = [1,2,3];
+const age2 = [4,5,6];
+const age3 = [7,8,9];
+const allAges1 = age1.concat(age2).concat(age3).concat([10]);
+const allAges2 = [...age1,...age2,...age3,10];
+console.log(allAges1);
+console.log(allAges2);
+
+const maxAllAges2 = Math.max(...allAges2);
+console.log(maxAllAges2);

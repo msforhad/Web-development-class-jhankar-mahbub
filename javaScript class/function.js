@@ -70,6 +70,9 @@ var total = first + second;
 // let array =["forhad","mehedi","hasan"];
 // array.forEach((val,idx,array)=>{ //(element,index,fullArray)
 //     console.log(val,idx,array);
+
+
+
 //     // console.log(val.toUpperCase());
 // });
 
@@ -245,6 +248,26 @@ var total = first + second;
 // }
 // var result = addNumber(3,5,9,10,7,88,100);
 // console.log(result);
+
+// default parameter
+// function add(num1,num2){
+//     num2 = num2 || 20;
+//     return num1+num2;
+// }
+// // const total = add(15);
+// const total = add(15,30);
+// console.log(total);
+
+// const firstName = "Mehedi";
+// const midlName = "Hasan";
+// const lastName = "Forhad";
+// const fullName1 = firstName + " "+midlName+" "+lastName+" "+"is a good boy.";
+// const fullName2 = `${firstName} ${midlName} ${lastName} is a good boy.`;
+// const fullName3 = `${firstName}${midlName}${lastName} is agood boy.`;
+// console.log(fullName1);
+// console.log(fullName2);
+// console.log(fullName3);
+
 
 
 
