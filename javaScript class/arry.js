@@ -11,9 +11,9 @@
 //27 arry modde nai tai index -1 dekhabe//
 // console.log(firendsAge.indexOf(27));
 
-//-----arry push,pop,length------//
+//-----array push,pop,length------//
 
-// var age = [2, 3];
+var age = [2, 3];
 // console.log(age);
 // console.log(age.length);
 
@@ -22,7 +22,7 @@
 // console.log(age);
 // console.log(age.length);
 
-// age.pop();
+age.pop();
 // console.log(age);
 
 // var tealine = ['kalam', 'balam', 'salam','forhad','mehedi','tomal','md'];
@@ -73,7 +73,7 @@
 // let allNam = nam.concat(dcnam, nam2);
 // console.log(allNam);
 
-let arr = [100,150,200,50,500,1000];
+// let arr = [100,150,200,50,500,1000];
 // arr.splice(2,2,101,102); //(index,number of delete element,first element,second element)
 
 //------no delete array just add element
@@ -81,5 +81,5 @@ let arr = [100,150,200,50,500,1000];
 
 //----delete element number 50
 // arr.splice(3,1);
-arr.splice(3,1,101);
-console.log(arr);
+// arr.splice(3,1,101);
+// console.log(arr);
